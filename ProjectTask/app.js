@@ -1,3 +1,6 @@
+// ורד נגאר 325523017
+// מוחמד ריאן 327640835
+
 const http = require("http"); // Import Node.js core module
 const fs = require("fs"); // import file module
 const path = require("path");
@@ -18,3 +21,4 @@ const server = http.createServer(function (req, res) {
 
 server.listen(3000); //listen for any incoming requests
 console.log("Node.js web server at port 3000 is running..");
+
