@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Component By Function</title>
+
+    <style>
+      body {
+        background-color: white;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+      }
+
+      .book-container {
+        background-color: #c9dcec;
+        padding: 10px;
+        margin: 70px auto;
+        width: 500px;
+      }
+
+      h2 {
+        color: #1f5b8f;
+        font-size: 25px;
+        margin-bottom: 30px;
+        font-weight: 1000;
+      }
+
+      /* Book design */
+      .book {
+        width: 170px;
+        height: 250px;
+        margin: 0 auto 20px;
+        border: 1x solid #b7b7b7;
+        font-family: Arial, sans-serif;
+      }
+      /* ------------------------------------------------------------ */
+      /* top grey bar */
+      .top {
+        background-color: #e8e8e8;
+        height: 23%;
+        position: relative;
+        font-size: 8px;
+      }
+      /* left */
+      .top #divLeft {
+        position: absolute;
+        top: 0px;
+        left: 8px;
+        font-weight: bold;
+        font-size: 8px;
+        color: white;
+        background-color: black;
+      }
+      .top #divLeft p {
+        margin: 2px;
+      }
+
+      /* right */
+      .top #divRight {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        text-align: right;
+        line-height: 1;
+      }
+      /* right Up */
+      .top #divRight #pUp {
+        font-size: 6px;
+        margin: 0;
+      }
+      /* right Down */
+      .top #divRight #pDown {
+        margin-top: 20px;
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      /* ------------------------------------------------------------ */
+      /* middle white bar */
+      .middle {
+        background-color: white;
+        height: 27%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+      }
+
+      .middle #midh3 {
+        font-size: 27px;
+        font-weight: bold;
+        color: black;
+        line-height: 0.9;
+      }
+
+      /* ------------------------------------------------------------ */
+      /* bottom yellow bar */
+      .bottom {
+        background-color: #f7d334;
+        height: 50%;
+        position: relative;
+      }
+
+      .bottom #js {
+        position: absolute;
+        bottom: -15px;
+        right: 2px;
+        font-size: 120px;
+        font-weight: bold;
+        color: black;
+      }
+      /* YOU DON'T KNOW */
+      .bottom #vertical {
+        position: absolute;
+        left: 30px;
+        bottom: 53px;
+        transform: rotate(-90deg);
+        font-size: 9px;
+        font-weight: bold;
+        color: #f7d334;
+      }
+
+      /* ------------------------------------------------------------ */
+      /* Down */
+      #downh3 {
+        color: #275c8b;
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      #des {
+        color: #5c6b7c;
+        font-size: 14px;
+        width: 65%;
+        margin-left: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+      }
+
+      .footer {
+        color: #275c8b;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="book-container">
+      <h2>Book Component By Function</h2>
+
+      <div class="book">
+        <div class="top">
+          <div id="divLeft"><p>O'REILLY</p></div>
+          <div id="divRight">
+            <p id="pUp">
+              Intensely useful and relevant information<br />
+              about the parts of the language that<br />
+              many JavaScript programmers simply avoid.
+            </p>
+            <p id="pDown">KYLE SIMPSON</p>
+          </div>
+        </div>
+
+        <div class="middle">
+          <h3 id="midh3">SCOPE &amp;<br />CLOSURES</h3>
+        </div>
+        <div class="bottom">
+          <div id="js">JS</div>
+          <div id="vertical">YOU DON'T KNOW</div>
+        </div>
+      </div>
+
+      <h3 id="downh3">By Kyle Simpson</h3>
+
+      <p id="des">
+        Parts of the language that many JavaScript programmers simply avoid.
+      </p>
+
+      <p class="footer">© ward & mohammed</p>
+    </div>
+  </body>
+</html>
