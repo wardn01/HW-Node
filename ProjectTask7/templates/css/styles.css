@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f3f6fa;
+}
+
+/* Navbar */
+nav {
+  background: #000000;
+  padding: 5px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #d9e7ff;
+}
+
+/* Contact Box => About Us , Contact Us*/
+.box {
+  background: white;
+  width: 500px;
+  margin: 60px auto;
+  padding: 10px 50px 50px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.box h2 {
+  color: #222;
+}
+
+.info {
+  margin: 20px;
+  font-size: 17px;
+  color: #303030;
+}
+
+.label {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Footer at bottom */
+.main-footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background: #000000;
+  color: white;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

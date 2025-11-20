@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+.book-container {
+  background-color: #c9dcec;
+  padding: 10px;
+  margin: 10px auto;
+  width: 500px;
+}
+
+h2 {
+  color: #1f5b8f;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 1000px;
+}
+
+/* ------------------------------------------------------------ */
+#imgsize {
+  width: 220px;
+}
+/* ------------------------------------------------------------ */
+/* Down */
+#downh3 {
+  color: #275c8b;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#des {
+  color: #5c6b7c;
+  font-size: 14px;
+  width: 65%;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.footer {
+  color: #275c8b;
+  font-weight: bold;
+  font-size: 14px;
+}
