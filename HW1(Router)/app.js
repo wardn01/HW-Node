@@ -1,3 +1,7 @@
+// ward najjar 325523017
+// mohammed rayan 327640835
+// 50/2
+
 const express = require("express");
 const app = express();
 const userRoutes = require("./routes/users");
@@ -26,3 +30,4 @@ app.use((req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
