@@ -1,3 +1,7 @@
+// ward najjar 325523017
+// mohammed rayan 327640835
+// 50/2
+
 const data = {
   products: [
     { id: 1, stock: 3, name: "Laptop", price: 1000 },
@@ -43,3 +47,4 @@ const data = {
 };
 
 module.exports = data;
+
